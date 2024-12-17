@@ -17,19 +17,19 @@
     <h1 class="title">Entre em contato</h1>
     <div class="button-group">
       <!-- Botão WhatsApp com os três pontinhos e modal -->
-      <a href="api.whatsapp.com/send?phone=48998143419" class="button whatsapp">
+      <a href="#" class="button whatsapp">
         <i class="icon fab fa-whatsapp"></i> 
         <span class="divider">|</span>
         <span class="button-text1">Constante</span>
-        <span class="modal-btn">+</span>
+        <span class="modal-btn" data-target="modal-whatsapp">+</span>
       </a>
       
       <!-- Botão Instagram com os três pontinhos e modal -->
-      <a href="#" class="button instagram">
+      <a href="https://www.instagram.com/rizontec/?utm_source=ig_web_button_share_sheet" class="button instagram">
         <i class="icon fab fa-instagram"></i> 
         <span class="divider">|</span>
         <span class="button-text2">Instagram</span>
-        <span class="modal-btn">+</span>
+        <span class="modal-btn" data-target="modal-instagram">+</span>
       </a>
       
       <!-- Botão Facebook com os três pontinhos e modal -->
@@ -37,7 +37,7 @@
         <i class="icon fab fa-facebook"></i>
         <span class="divider">|</span> 
         <span class="button-text3">Facebook</span>
-        <span class="modal-btn">+</span>
+        <span class="modal-btn" data-target="modal-facebook">+</span>
       </a>
       
       <!-- Botão OLX com os três pontinhos e modal -->
@@ -45,17 +45,18 @@
         <i class="icon fab fa-olx"><img src="olx.png" alt="olx" class="olx-icon"></i> 
         <span class="divider">|</span>
         <span class="button-text4">OLX</span>
-        <span class="modal-btn">+</span>
+        <span class="modal-btn" data-target="modal-olx">+</span>
       </a>
     </div>
   </div>
   
-  <div id="modal" class="modal">
+  <!-- Modais diferentes para cada botão -->
+  <div id="modal-whatsapp" class="modal">
     <div class="modal-content">
-      <span class="close-btn">&times;</span>
-      <h2>Informações</h2>
-      <img src="foto-minha.jpg" alt="Minha Foto" class="modal-img">
-      <p>Meu nome: João Silva</p>
+      <span class="close-btn" data-target="modal-whatsapp">&times;</span>
+      <h2>Informações do WhatsApp</h2>
+      <img src="eu.jpeg" alt="Minha Foto" class="modal-img">
+      <p>Nome: Constante Lindo</p>
       <p>Descrição: Desenvolvedor Front-end</p>
       <div class="social-links">
         <a href="#" class="social-link">Instagram</a>
@@ -65,7 +66,55 @@
       </div>
     </div>
   </div>
-  
+
+  <div id="modal-instagram" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" data-target="modal-instagram">&times;</span>
+      <h2>Informações do Instagram</h2>
+      <img src="rizon.jpeg" alt="Foto Instagram" class="modal-img">
+      <p>Nome: RizonTec</p>
+      <p>Descrição: Empresa de Tecnologia</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-facebook" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" data-target="modal-facebook">&times;</span>
+      <h2>Informações do Facebook</h2>
+      <img src="rizon.jpeg" alt="Foto Facebook" class="modal-img">
+      <p>Nome: RizonTec</p>
+      <p>Descrição: Tecnologia e Soluções</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-olx" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" data-target="modal-olx">&times;</span>
+      <h2>Informações do OLX</h2>
+      <img src="rizon.jpeg" alt="Foto OLX" class="modal-img">
+      <p>Nome: RizonTec</p>
+      <p>Descrição: Anúncios e Vendas Online</p>
+      <div class="social-links">
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">Facebook</a>
+        <a href="#" class="social-link">LinkedIn</a>
+        <a href="#" class="social-link">GitHub</a>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
