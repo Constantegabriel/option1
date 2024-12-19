@@ -23,6 +23,49 @@ body {
   border-radius: 10px; /* Arredondamento das bordas */
 }
 
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%; /* Reduz a largura do container */
+    padding: 30px 20px; /* Reduz o padding */
+    border-radius: 8px; /* Ajusta o arredondamento */
+  }
+
+  .header-logo {
+    width: 100px; /* Reduz o tamanho da logo */
+    margin-bottom: 15px;
+  }
+
+  .title {
+    font-size: 18px; /* Reduz o tamanho da fonte do título */
+    margin-bottom: 20px;
+  }
+
+  .button {
+    padding: 8px 15px; /* Reduz o padding dos botões */
+    font-size: 14px; /* Reduz o tamanho da fonte */
+    border-radius: 12px; /* Ajusta as bordas */
+  }
+
+  .social-link img {
+    width: 30px; /* Reduz o tamanho das logos */
+  }
+
+  .modal-content {
+    width: 90%; /* Ajusta a largura do modal */
+    padding: 15px; /* Reduz o padding do modal */
+  }
+
+  .modal-img {
+    width: 80px; /* Reduz o tamanho da imagem do modal */
+    height: 80px;
+  }
+  
+  .footer {
+    font-size: 12px; /* Reduz o tamanho do texto no footer */
+    padding: 5px 0; /* Ajusta o padding */
+  }
+}
 
 .header-logo {
     width: 150px;
