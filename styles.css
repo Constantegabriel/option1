@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,15 +11,16 @@ body {
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
+  overflow: hidden; /* Remove barras de rolagem */
 }
 
 .container {
-  text-align: center;
+  text-align: center; /* Centraliza o conteúdo dentro do container */
   max-width: 600px; /* Limita o tamanho do container */
   padding: 60px 80px;
-  background-color: rgba(255, 255, 255, 0.219); /* Fundo com leve transparência (0.8 de opacidade) */
-  backdrop-filter: blur(5px); /* Efeito de blur leve */    
-  border-radius: 40px; /* Arredondamento das bordas */
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo com leve transparência */
+  backdrop-filter: blur(3px); /* Efeito de blur leve */
+  border-radius: 10px; /* Arredondamento das bordas */
 }
 
 
@@ -50,6 +52,7 @@ body {
     text-decoration: none;
     border-radius: 15px;
     font-size: 16px;
+    font-weight: 600;
     transition: background-color 0.3s ease;
 }
 
@@ -213,10 +216,34 @@ margin-right: 65px;
   
   .modal-btn:hover {
     color: #ffffff; /* Cor do botão ao passar o mouse */
-    transform: scale(2.05);
+    transform: scale(1.05);
 
   }
 
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.600); /* Fundo escuro transparente */
+  backdrop-filter: blur(3px); /* Efeito de blur leve */    
+  color: #fff; /* Cor do texto */
+  text-align: center;
+  padding: 1px 0;
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #00bfff; /* Cor do link */
+  text-decoration: none;
+ 
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Efeito de sublinhado no hover */
+}
 
 /* Animacao do efeito de onda para Instagram */
 @keyframes gradient-wave {
