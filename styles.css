@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('bac.avif'); /* Corrija o caminho da imagem aqui */
+  background-image: url('bahc.jpeg'); /* Corrija o caminho da imagem aqui */
   background-size: cover; /* Faz a imagem cobrir o corpo */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Não repete a imagem */
@@ -15,9 +15,18 @@ body {
 }
 
 .container {
+  width: 100%; /* O container ocupa todo o espaço disponível */
+  display: flex; /* O container é um flex container */
+  flex-direction: column; /* O container é orientado verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
   text-align: center; /* Centraliza o conteúdo dentro do container */
-  max-width: 600px; /* Limita o tamanho do container */
-  padding: 60px 80px;
+  max-width: 350px; /* Limita o tamanho do container */
+  padding: 30px 10px;
+  padding-top: 10px;
+  margin-top: -50px;
+  padding-bottom: 45px;
   background-color: rgba(0, 0, 0, 0.6); /* Fundo com leve transparência */
   backdrop-filter: blur(3px); /* Efeito de blur leve */
   border-radius: 10px; /* Arredondamento das bordas */
@@ -26,8 +35,8 @@ body {
 /* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
   .container {
-    max-width: 90%; /* Reduz a largura do container */
-    padding: 30px 20px; /* Reduz o padding */
+    max-width: 85%; /* Reduz a largura do container */
+    padding: 30px 5px; /* Reduz o padding */
     border-radius: 8px; /* Ajusta o arredondamento */
   }
 
@@ -38,11 +47,11 @@ body {
 
   .title {
     font-size: 18px; /* Reduz o tamanho da fonte do título */
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .button {
-    padding: 8px 15px; /* Reduz o padding dos botões */
+    padding: 8px 25px; /* Reduz o padding dos botões */
     font-size: 14px; /* Reduz o tamanho da fonte */
     border-radius: 12px; /* Ajusta as bordas */
   }
@@ -89,7 +98,7 @@ body {
 .button {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: #007bff;
     color: white;
     text-decoration: none;
