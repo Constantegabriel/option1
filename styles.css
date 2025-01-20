@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('bahc.jpeg'); /* Corrija o caminho da imagem aqui */
+  background-image: url('sss.png'); /* Corrija o caminho da imagem aqui */
   background-size: cover; /* Faz a imagem cobrir o corpo */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Não repete a imagem */
@@ -41,7 +41,7 @@ body {
   }
 
   .header-logo {
-    width: 100px; /* Reduz o tamanho da logo */
+    width: 170px; /* Reduz o tamanho da logo */
     margin-bottom: 15px;
   }
 
@@ -116,14 +116,16 @@ body {
     margin-right: 10px;
 }
 
-/* Botão WhatsApp com estilo personalizado */
+/* Botão Whatsapp com estilo personalizado */
 .whatsapp {
-    background-color: #00dd21;
+  background: linear-gradient(45deg, #00b80f, #19ff38, #3cbe00, #1eff00);
+  background-size: 200% 200%;
+  animation: gradient-wave 4s ease infinite;
 }
 
 .whatsapp:hover {
-    background-color: #1ebf43;
-    transform: scale(1.05);
+  background: linear-gradient(45deg, #19ff38, #00b80f, #3cbe00, #1eff00);
+  transform: scale(1.05);
 }
 
 /* Botão Instagram com estilo personalizado */
@@ -138,36 +140,35 @@ body {
     transform: scale(1.05);
 }
 
-/* Botão Facebook com estilo personalizado */
+/* Botão facebook com estilo personalizado */
 .facebook {
-    background-color: #1877f2;
+  background: linear-gradient(45deg, #0077ff, #00aeff, #0026ff, #5a68ff);
+  background-size: 200% 200%;
+  animation: gradient-wave 4s ease infinite;
 }
 
 .facebook:hover {
-    background-color: #145dbf;
-    transform: scale(1.05);
+  background: linear-gradient(45deg,  #00aeff, #0077ff, #0026ff, #5a68ff);
+  transform: scale(1.05);
 }
 
-/* Botão OLX com estilo personalizado */
-.olx {
-    background-color: #7300e6;
+/* Botão site com estilo personalizado */
+.rtec {
+  background: linear-gradient(45deg, #6b42ff, #ab51ff, #d817ff, #a12fff);
+  background-size: 200% 200%;
+  animation: gradient-wave 4s ease infinite;
 }
 
-.olx:hover {
-    background-color: #5a00c5;
-    transform: scale(1.05);
+.rtec:hover {
+  background: linear-gradient(45deg, #ab51ff, #6b42ff, #d817ff, #a12fff);
+  transform: scale(1.05);
 }
-.olx-icon {
-    width: 24px; /* Ajusta o tamanho da logo OLX */
-    height: auto;
-  }
-
 
   .button-text0{
-    margin-right: 65px;
+    margin-right: 75px;
       }
   .button-text1{
-margin-right: 65px;
+margin-right: 75px;
   }
   .button-text2{
     margin-right: 75px;
@@ -176,7 +177,7 @@ margin-right: 65px;
         margin-right: 72px;
           }
           .button-text4{
-            margin-right: 110px;
+            margin-right: 75px;
               }
 
    
